@@ -13,7 +13,7 @@ export default function Navbar() {
             <Image
               src="/logo.webp"
               alt="ROLDRIVE Logo"
-              className="h-4 sm:h-6 md:h-8 lg:h-10 w-auto object-contain flex-shrink-0"
+              className="h-4 sm:h-6 md:h-8 lg:h-10 w-auto object-contain shrink-0"
               width={130}
               height={62}
             />
@@ -48,7 +48,7 @@ export default function Navbar() {
           {/* Language Selector */}
           <select className="bg-transparent border border-gray-600 text-gray-200 
                              rounded-md px-1 sm:px-o.5 md:px-1 lg:px-2 
-                             py-[1px] sm:py-1 md:py-2 
+                             py-px sm:py-1 md:py-2 
                              text-[clamp(8px,1.5vw,13px)] font-semibold focus:outline-none">
             <option value="en">Eng</option>
           </select>
@@ -58,7 +58,7 @@ export default function Navbar() {
             href="#"
             className="bg-white text-black rounded-md 
                        px-2 sm:px-3 md:px-4 lg:px-6 lg:w-30 sm:w-20
-                       py-[2px] sm:py-1 md:py-2 
+                       py-0.5 sm:py-1 md:py-2 
                        text-[clamp(8px,1.5vw,13px)] font-semibold text-center"
           >
             Sign In
