@@ -1,6 +1,6 @@
 export default function RequirementSection() {
   return (
-    <section className="flex flex-col lg:flex-row items-start justify-between w-full min-h-screen bg-[#0f1c27] text-white px-4 sm:px-8 md:px-12 lg:px-16 py-12 gap-10">
+    <section className="flex flex-row flex-nowrap lg:flex-row items-start justify-between w-full min-h-screen bg-[#0f1c27] text-white px-4 sm:px-8 md:px-12 lg:px-16 py-12 gap-10">
       
       {/* Left Side - Description */}
       <div className="w-full lg:w-1/2 flex flex-col justify-center p-12 space-y-6">
